@@ -28,8 +28,8 @@ def hello_world():
 
     obj={ "type":species,"SepalLength":sl,"SepalWidth":sw,"PetalLength":pl,"PetalWidth":pw,"By":"Ayush Sajwan"}
 
-
     return jsonify(obj)
+
 
 if __name__=="__main__":
     app.run(debug=True)
